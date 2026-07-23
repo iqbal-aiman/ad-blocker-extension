@@ -17,7 +17,7 @@ Built because free-tier browsing shouldn't mean fighting ads on every click.
 ## Screenshots
 
 *![alt text](image-1.png)
-*
+Popup showing live block counter*
 
 ## Installation
 
