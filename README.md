@@ -17,6 +17,8 @@ Built because free-tier browsing shouldn't mean fighting ads on every click.
 ## Screenshots
 
 *![alt text](image-1.png)
+
+
 Popup showing live block counter*
 
 ## Installation
@@ -39,6 +41,7 @@ This extension uses Chrome's **Declarative Net Request API** (the modern Manifes
 - `rules-popads.json` — hand-picked popup/redirect ad networks common on streaming sites
 
 **Project structure:**
+```
 ad-blocker-extension/
 ├── manifest.json → extension configuration
 ├── rules.json → EasyList-derived blocking rules (auto-generated)
@@ -54,6 +57,8 @@ ad-blocker-extension/
 │ ├── content/
 │ │ └── content.js → hides leftover ad elements on YouTube
 │ └── icons/
+```
+
 ## Updating the Ad-Block List
 
 EasyList updates frequently as new ad networks appear. To regenerate `rules.json` with the latest data:
