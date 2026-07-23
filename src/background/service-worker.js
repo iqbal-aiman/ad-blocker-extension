@@ -1,5 +1,5 @@
 chrome.runtime.onInstalled.addListener(() => {
-  chrome.declarativeNetRequest.updateEnabledRulesets({ enableRulesetIds: ["ruleset_1"] });
+ chrome.declarativeNetRequest.updateEnabledRulesets({ enableRulesetIds: ["ruleset_1", "ruleset_2"] });
   chrome.storage.local.set({ blockedCount: 0 });
 });
 

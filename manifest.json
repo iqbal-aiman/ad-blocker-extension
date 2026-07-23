@@ -22,14 +22,12 @@
     "128": "src/icons/icon128.png"
   },
   "declarative_net_request": {
-    "rule_resources": [
-      {
-        "id": "ruleset_1",
-        "enabled": true,
-        "path": "rules.json"
-      }
-    ]
-  },
+  "rule_resources": [
+    { "id": "ruleset_1", "enabled": true, "path": "rules.json" },
+    { "id": "ruleset_2", "enabled": true, "path": "rules-popads.json" }
+  ]
+}
+  ,
   "background": {
     "service_worker": "src/background/service-worker.js"
   }

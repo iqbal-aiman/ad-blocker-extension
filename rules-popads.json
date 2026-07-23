@@ -1,0 +1,12 @@
+[
+  { "id": 20001, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "propellerads.com", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } },
+  { "id": 20002, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "popads.net", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } },
+  { "id": 20003, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "popcash.net", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } },
+  { "id": 20004, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "adsterra.com", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } },
+  { "id": 20005, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "exoclick.com", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } },
+  { "id": 20006, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "juicyads.com", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } },
+  { "id": 20007, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "hilltopads.net", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } },
+  { "id": 20008, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "adcash.com", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } },
+  { "id": 20009, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "clickadu.com", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } },
+  { "id": 20010, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "trafficjunky.com", "resourceTypes": ["script","xmlhttprequest","sub_frame","main_frame"] } }
+]
